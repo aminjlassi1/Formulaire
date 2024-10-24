@@ -1,5 +1,5 @@
 body {
-  background-color: #be4040;
+  background-color: #971b1b;
 }
 
 .card {
@@ -22,4 +22,9 @@ body {
 
 .text-center a:hover {
   text-decoration: underline;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+  background-color: blueviolet;
 }

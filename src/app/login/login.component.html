@@ -1,31 +1,63 @@
 <div class="container d-flex justify-content-center align-items-center vh-100">
   <div class="card p-4 shadow-sm" style="width: 25rem">
-    <h3 class="text-center mb-4">Login</h3>
+    <h3 class="text-center mb-4">Formulaire</h3>
     <form>
       <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
+        <label for="nom" class="form-label">Nom</label>
         <input
           type="text"
           class="form-control"
-          id="username"
-          placeholder="Enter your username"
+          id="nom"
+          placeholder="Entrez votre nom"
         />
       </div>
 
       <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
+        <label for="prenom" class="form-label">Prénom</label>
         <input
-          type="password"
+          type="text"
           class="form-control"
-          id="password"
-          placeholder="Enter your password"
+          id="prenom"
+          placeholder="Entrez votre prénom"
         />
       </div>
 
-      <button type="submit" class="btn btn-primary w-100">Login</button>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Entrez votre email"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="telephone" class="form-label">Téléphone</label>
+        <input
+          type="tel"
+          class="form-control"
+          id="telephone"
+          placeholder="Entrez votre numéro de téléphone"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="adresse" class="form-label">Adresse</label>
+        <input
+          type="text"
+          class="form-control"
+          id="adresse"
+          placeholder="Entrez votre adresse"
+        />
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">
+        Créer un compte
+      </button>
 
       <div class="text-center mt-3">
-        <a href="#">Forgot password?</a>
+        <a href="#">Déjà un compte ? Connectez-vous</a>
       </div>
     </form>
   </div>
